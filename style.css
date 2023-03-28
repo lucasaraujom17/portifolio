@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    
+}
+
+p{
+    color: white;
+}
+
+.Primeiro-paragrafo{
+    color: #4682B4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.apresentacao{
+    margin: 8% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.apresentacao__conteudo{
+    width: 400px;
+    height: center;
+    display:flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.h1__conteudo{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}   
+
+.Foto-Lucas{
+    color: #4682B4;
+    width: 400px;
+    height: 480px;
+}
+
+.apresentacao__botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+.apresentacao__botao{
+    /* background-color:  #4682B4; */
+    width: 210px;
+    /* border-radius: 18px; */
+    font-size: 17px;
+    color: white;
+    font-weight: 1000px;
+    padding: 22,5 0;
+    text-decoration: none;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    border: 2.5px solid #4682B4;
+}
+
+.minhas-redes{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    display: flex;
+    color:  #4682B4;
+}
